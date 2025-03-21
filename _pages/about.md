@@ -56,4 +56,31 @@ redirect_from:
 **时间：** 2024.06 – 现在  
 **单位：** 西北工业大学  
 
-- **研究内容：** 针对LLM在复杂推理与策略规划任务中的性能瓶颈，拟优化基于蒙特卡洛树搜索（MCTS）的数据生成以微调LLM。通过记录节点模拟时的错误与正确路径训练推理决策器，使模型更灵活地制定推理策略解决问题。同时，在奖励模型中引入反思价值评估机制，提升节点评估质量，确保推理优化效果。  
+- **研究内容：** 针对LLM在复杂推理与策略规划任务中的性能瓶颈，拟优化基于蒙特卡洛树搜索（MCTS）的数据生成以微调LLM。通过记录节点模拟时的错误与正确路径训练推理决策器，使模型更灵活地制定推理策略解决问题。同时，在奖励模型中引入反思价值评估机制，提升节点评估质量，确保推理优化效果。
+
+**项目经历**
+======
+### 新一代人工智能国家科技重大专项 （已结项） 
+**项目名称：** 亿级节点时序图谱实时智能分析关键技术与系统 
+**主要工作：**  
+- 参与课题 4.1 “金融时序知识图谱的动态舆情监测”子课题“基于主题的大规模舆情情感分析”。  
+- 参与专著《图数据管理技术：图立方新一代知识图谱管理系统》编写，负责 8.2 小节内容撰写。    
+
+---
+
+### 国家自然科学基金面上项目申请  （在申）
+**主要工作：**  
+- 负责六个技术路线之一。  
+---
+
+### CCF-智谱大模型创新基金项目  （在研）
+**项目名称：** 基于动态知识图谱 RAG 的多模态智能持续问答方法研究  
+**主要工作：**  
+- 负责三个研究方案之一。
+
+
+
+## 论文
+[1] Song L, Chen S, et al. **FMSA-SC: A Fine-grained Multimodal Sentiment Analysis Dataset based on Stock Comment Videos**[J]. *IEEE Transactions on Multimedia*, 2024. （引用次数：19）  
+[2] Lingyun Song, Siyu Chen, et al. **Improving Multimodal Sentiment Analysis with a Consistency-Driven Spatio-Temporal Graph Convolutional Network**.  (under review), 2025.  
+[3] Lingyun Song, Haodong Li, Siyu Chen, et al. **Multi-scale Temporal Neural Network for Stock Trend Prediction Enhanced by Temporal Hyperedge Learning**. (under review), 2025.  
