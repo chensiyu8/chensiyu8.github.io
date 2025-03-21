@@ -7,17 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+目前系统学习了深度学习的基础理论与经典方法，重点研究多模态学习、大语言模型（LLM）及序列模型（LSTM、Transformer等）。希望将所学应用于实际业务场景，持续探索多模态与LLM技术的创新。
 
 教育背景
 ======
 ### 西北工业大学 · 计算机科学与技术  
-2023.09 - 2026.06 (预期)  
+2023.09 -  现在  
 工学硕士 (GPA：89.5/100.00)  
 导师：尚学群（“大数据管理与存储”工业与信息化部重点实验室）  
-
-**主要课程：**  
-随机过程(94/100)，几何深度学习(94/100)，人工智能的数学基础(98/100)，凸优化算法与应用(90/100)  
 
 **荣誉奖励：**  
 国家奖学金，校级一等奖学金，优秀研究生  
@@ -28,41 +25,35 @@ This is the front page of a website that is powered by the [Academic Pages templ
 2019.09 - 2023.06  
 工学学士 (GPA: 3.73/4.0)  
 
-**主要课程：**  
-数学分析(99/100)，概率与统计(100/100)，离散数学(90/100)，算法设计与分析(93/100)，数据结构(93/100)  
-
 **荣誉奖励：**  
 国家励志奖学金，校级二等奖学金，优秀大学生  
 
-Getting started
+研究经历
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+### 基于股票评论视频的细粒度多模态情感分析数据集 [1]  
+**指导者：** 宋凌云副教授，尚学群教授  
+**时间：** 2022.09 – 2024.02  
+**单位：** 西北工业大学  
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+- **研究内容：** 针对股票市场情感分析数据集仅包含文本、难以处理情感歧义和讽刺的问题，构建了细粒度多模态情感分析数据集（FMSA-SC），涵盖1,247个中文股票评论视频，提供视频级多模态情感标注及文本、视觉、声学单模态情感标注，并在短语级实现跨模态对齐。此外，提出了一个细粒度多模态多任务框架作为基线模型，提升股票市场情感分析的准确性。  
+- **主要贡献：** 第一作者，构建数据集和模型，编写代码并进行实验，负责论文撰写和修改。  
 
-**Markdown generator**
+---
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+### 基于时空图神经网络的视频多模态情感分析方法 [2]  
+**指导者：** 宋凌云副教授，尚学群教授  
+**时间：** 2023.03 – 现在  
+**单位：** 西北工业大学  
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+- **研究内容：** 针对视频多模态情感分析（MSA），提出了一种基于一致性驱动的时空图卷积网络（CD-STGCN）的方法，以解决传统MSA方法中单模态情感特征提取不充分及跨模态冲突的问题。CD-STGCN通过时空图卷积网络改进单模态情感特征的学习，并引入基于一致性的跨模态融合策略，有效避免冲突情感线索的混淆。实验结果验证了模型的有效性。  
+- **主要贡献：** 第一作者，构思并搭建模型，撰写全文，编写全部代码并进行实验，全文校对与修改。  
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+---
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+### 自适应推理决策的反思增强LLM-MCTS推理优化  
+**指导者：** 宋凌云副教授，尚学群教授  
+**时间：** 2024.06 – 现在  
+**单位：** 西北工业大学  
+
+- **研究内容：** 针对LLM在复杂推理与策略规划任务中的性能瓶颈，拟优化基于蒙特卡洛树搜索（MCTS）的数据生成以微调LLM。通过记录节点模拟时的错误与正确路径训练推理决策器，使模型更灵活地制定推理策略解决问题。同时，在奖励模型中引入反思价值评估机制，提升节点评估质量，确保推理优化效果。  
