@@ -1,12 +1,3 @@
----
-permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
-
 目前系统学习了深度学习的基础理论与经典方法，重点研究多模态学习、大语言模型（LLM）及序列模型（LSTM、Transformer等）。希望将所学应用于实际业务场景，持续探索多模态与LLM技术的创新。
 
 教育背景
