@@ -1,14 +1,12 @@
 ---
-title: "Paper Title Number 3"
+title: "FMSA-SC: A Fine-Grained Multimodal Sentiment Analysis Dataset Based on Stock Comment Videos"
 collection: publications
-category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+permalink: /publication/FMSA-SC
+excerpt: 'This paper is about multimodal sentiment analysis dataset based on stock comment videos'
+date: 2024-02-08
+venue: 'Journal'
+paperurl: 'http://chensiyu8.github.io/files/fmsa-sc.pdf'
+citation: 'Song L, Chen S, Meng Z, et al. FMSA-SC: A fine-grained multimodal sentiment analysis dataset based on stock comment videos[J]. IEEE Transactions on Multimedia, 2024, 26: 7294-7306.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Previous Sentiment Analysis (SA) studies have demonstrated that exploring sentiment cues from multiple synchronized modalities can effectively improve the SA results. Unfortunately, until now there is no publicly available dataset for multimodal SA of the stock market. Existing datasets for stock market SA only provide textual stock comments, which usually contain words with ambiguous sentiments or even sarcasm words expressing opposite sentiments of literal meaning. To address this issue, we introduce a Fine-grained Multimodal Sentiment Analysis dataset built upon 1,247 Stock Comment videos, called FMSA-SC. It provides both multimodal sentiment annotations for the videos and unimodal sentiment annotations for the textual, visual, and acoustic modalities of the videos. In addition, FMSA-SC also provides fine-grained annotations that align text at the phrase level with visual and acoustic modalities. Furthermore, we present a new fine-grained multimodal multi-task framework as the baseline for multimodal SA on the FMSA-SC.
