@@ -8,13 +8,14 @@ tags:
   - category2
 ---
 
-This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.
-
-Headings are cool
+个人的一些学习笔记。见链接：[csdn学习笔记](https://blog.csdn.net/ppgodcsy?type=blog)。
 ======
 
-You can have many headings
+图神经网络
 ======
 
-Aren't headings cool?
+生物标志物综述
+======
+
+
 ------
