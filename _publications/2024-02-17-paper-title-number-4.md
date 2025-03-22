@@ -1,13 +1,13 @@
 ---
-title: "FMSA-SC: A Fine-Grained Multimodal Sentiment Analysis Dataset Based on Stock Comment Videos"
+title: "Predicting Hepatoma-Related Genes Based on Representation Learning of PPI network and Gene Ontology Annotations"
 collection: publications
-category: Journals
-permalink: /publication/fmsa-sc
-excerpt: 'This paper is about multimodal sentiment analysis dataset based on stock comment videos.'
-date: 2024-02-08
-venue: 'IEEE Transactions on Multimedia'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: Conference
+permalink: /publication/pre_ppi
+excerpt: 'This paper is about gene prediction.'
+date: 2022-01-14
+venue: '2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)'
+paperurl: 'http://academicpages.github.io/files/pre_ppi.pdf'
+citation: 'Wang T, Shao Z, Xiao Y, et al. Predicting hepatoma-related genes based on representation learning of PPI network and gene ontology annotations[C]//2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2021: 1892-1898.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Hepatoma is the most common type of primary liver cancer with a high mortality rate in the world. The genetic causes of the disease pathology remain largely unknown. Effective discovery of the genes associated with hepatoma has become important in disease prevention, early diagnosis, and therapeutic treatments. With the developments of molecular networks, graph-based methods have been tremendously successful in predicting disease genes based on the hypothesis of guilt-by-association. Network representation learning (NRL) techniques have accelerated disease gene discovery in recent years because of their powerful network feature extraction ability. However, the current network representation learning-based methods for disease gene discovery did not consider the gene features derived from gene ontology annotations, which apriori group genes with similar functions. To fill this gap, here we propose a novel framework to predict hepatoma-related genes based on representation learning from both protein-protein interactions (PPI) network and gene ontology annotations. Our framework has three steps: learning features from PPI network and gene ontologies using NRL techniques, integrating different features based on autoencoder, predicting hepatoma-related genes using machine learning classifiers. Experiments have demonstrated that our framework could accurately predict hepatoma-related genes with AUROC and AUPRC reaching 0.93 and 0.94, respectively. Compared with other methods using only single representation features, our framework also shows superior performance on hepatoma gene prediction.
